@@ -1,3 +1,5 @@
+ML SUPERVISED -REGRESSION
+
 bike sharing demand prediction
 
 The contents of the data came from a city called Seoul. A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free.The data had variables such as date, hour, temperature, humidity, wind-speed, visibility, dew point temperature, solar radiation, rainfall, snowfall, seasons, holiday, functioning day and rented bike count.The problem statement was to build a machine learning model that could predict the rented bikes count required for an hour, given other variables

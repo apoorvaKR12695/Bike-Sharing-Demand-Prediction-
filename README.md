@@ -15,5 +15,5 @@ Peoples dont use rented bikes in no functioning day
   people tend to rent bikes when the visibility is between 300 to 1700
 for all the above experiments we can conclude that gradient boosting  and random forest regressor with using hyperparameters we got the best results
 The model performed well in this case but as the data is time dependent, values of temperature, wind-speed, solar radiation etc. will not always be consistent. Therefore, there will be scenarios where the model might not perform well. As Machine learning is an exponentially evolving field, we will have to be prepared for all contingencies and also keep checking our model from time to time
-
+ 
 

@@ -97,21 +97,21 @@ Although random forest regression and linear regression follow the same concept,
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2> :books: References</h2>
 <ul>
-  <li><p>'Mobile Price Prediction Using Machine Learning Blog' . [Online].</p>
+      <li><p>'Regression Model to Predict Bike Sharing Demand'. [Online].</p>
       <p>Available: https://medium.com/@Nivitus./mobile-price-prediction-using-machine-learning-fa9cab6fb242
   </li>
   
-  <li><p>'Mobile Price Prediction Through Four Classification Algorithms '. [Online].</p>
-      <p>Available: https://www.analyticsvidhya.com/blog/2022/02/learn-mobile-price-prediction-through-four-classification-algorithms/ /</p>
+  <li><p>'Random Forest Regression '. [Online].</p>
+      <p>Available:https://towardsdatascience.com/random-forest-regression-5f605132d19d /</p>
   </li>
-  <li><p>Youtube.com,'Mobile Price Classification and Prediction using 3 Machine Learning Algorithms'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=rROyz_hZjKQ</p>
+  <li><p>Youtube.com,'Bike Sharing Demand Analysis (Regression) | Machine Learning | Python'. [Online].</p>
+      <p>Available: https://www.youtube.com/watch?v=P77bDN7qAlc&t=545s</p>
   </li>
   <li><p>Youtube.com, 'Mobile Price Prediction Kaggle Dataset Analysis | Data Science | ML | Kaggle'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=880YXMnTeu4</p>
+      <p>Available: https://www.youtube.com/watch?v=880YXMnTeu4 </p>
   </li>
-  <li><p>Manisha-sirsat.blogspot.com, 'What is Confusion Matrix and Advanced Classification Metrics?'. [Online].</p>
-      <p>Available: https://manisha-sirsat.blogspot.com/2019/04/confusion-matrix.html</p>
+  <li><p>End to end Case Study: Bike-sharing demand prediction'. [Online].</p>
+      <p>Available:https://towardsdatascience.com/end-to-end-case-study-bike-sharing-demand-dataset-53201926c8db</p>
   </li>
   
 </ul>

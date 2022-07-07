@@ -18,14 +18,14 @@
 <h4>Executable Files:</h4>
 <ul>
   
-  <li><b>mobile_price_range_prediction_Apoorva_KR.ipynb</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
-  <li><b>final_notebook_mobile_price_range_prediction_Apoorva_KR.ipynb</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
+  <li><b>Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> - Includes all functions required for classification operations  and generates the model.h5 file after execution.</li>
+  <li><b>final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b> -  after execution, evaluation is done on the unseen data as in confusion_matrix.txt.</li>
 </ul>
 
 <h4>Output Files:</h4>
 <ul>
-  <li><b>model.h5</b> - Model contains information about the predictions of the train set, such as 0(low),high(1),very high(2).</li>
-  <li><b>confusion_matrix.txt</b> - Contains information about the classified emotions of the test set.</li>
+  <li><b>model.h5</b> - Model contains information about the predictions of the train set, continous value.</li>
+  <li><b>result.txt</b> - Contains information about the MSE and adjusted R2 of the test set.</li>
   
 </ul>
 
@@ -41,19 +41,24 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2> :book: Random Forest Classification </h2>
+<h2> :book: Random Forest Regression </h2>
 
-<p> Random forest classifier creates a set of decision trees from randomly selected subset of training set. It then aggregates the votes from different decision trees to decide the final class of the test object.Ensembled algorithms are those which combines more than one algorithms of same or different kind for classifying objects. For example, running prediction over Naive Bayes, SVM and Decision Tree and then taking vote for final consideration of class for test object.Basic parameters to Random Forest Classifier can be total number of trees to be generated and decision tree related parameters like minimum split, split criteria etc.
+<p> Regression is the other task performed by a random forest algorithm. A random forest regression follows the concept of simple regression. Values of dependent (features) and independent variables are passed in the random forest model.
+
+In a random forest regression, each tree produces a specific prediction. The mean prediction of the individual trees is the output of the regression. This is contrary to random forest classification, whose output is determined by the mode of the decision trees’ class.
+
+Although random forest regression and linear regression follow the same concept, they differ in terms of functions. The function of linear regression is y=bx + c, where y is the dependent variable, x is the independent variable, b is the estimation parameter, and c is a constant. The function of a complex random forest regression is like a blackbox.
    
-   ![Screenshot (26)](https://user-images.githubusercontent.com/102009481/177786192-c7ada90f-dec6-4231-a8a9-165239925432.png)
+  ![Screenshot (30)](https://user-images.githubusercontent.com/102009481/177840433-ff993854-46d5-4a0f-bc39-941a6e05d1cc.png)
 
 
 <h2> :book: XGboost </h2>
 
-<p> XGBoost stands for “Extreme Gradient Boosting”. XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements Machine Learning algorithms under the Gradient Boosting framework. It provides a parallel tree boosting to solve many data science problems in a fast and accurate way. 
+<p> XGBoost is a powerful approach for building supervised regression models. The validity of this statement can be inferred by knowing about its (XGBoost) objective function and base learners. The objective function contains loss function and a regularization term. It tells about the difference between actual values and predicted values, i.e how far the model results are from the real values. The most common loss functions in XGBoost for regression problems is reg:linear, and that for binary classification is reg:logistics. Ensemble learning involves training and combining individual models (known as base learners) to get a single prediction, and XGBoost is one of the ensemble learning methods. XGBoost expects to have the base learners which are uniformly bad at the remainder so that when all the predictions are combined, bad predictions cancels out and better one sums up to form final good predictions.
 
 
-![Screenshot (27)](https://user-images.githubusercontent.com/102009481/177787039-573da579-37af-4456-957b-c72d75c120b1.png)
+![Screenshot (31)](https://user-images.githubusercontent.com/102009481/177841156-6e6d4692-ef27-40b3-afd6-f84c60442ba2.png)
+
 
 
 
@@ -63,8 +68,8 @@
 <p>The order of execution of the program files is as follows:</p>
 
 
-<p><b>1) final_notebook_mobile_price_range_prediction_Apoorva_KR.ipynb</b></p>
-<p> This file must be executed, to define all the functions and variables required for classification operations which leads to the production of the model.h5 file. and to evaluate the model performance on unseen data
+<p><b>1) final_individual_notebook_Bike_Sharing_Demand_Prediction_Apoorva_KR.ipynb</b></p>
+<p> This file must be executed, to define all the functions and variables required for regression operations which leads to the production of the model.h5 file. and to evaluate the model performance on unseen data
 
 
 

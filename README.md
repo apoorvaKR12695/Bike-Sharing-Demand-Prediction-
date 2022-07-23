@@ -107,8 +107,7 @@ Although random forest regression and linear regression follow the same concept,
   <li><p>Youtube.com,'Bike Sharing Demand Analysis (Regression) | Machine Learning | Python'. [Online].</p>
       <p>Available: https://www.youtube.com/watch?v=P77bDN7qAlc&t=545s</p>
   </li>
-  <li><p>Youtube.com, 'Mobile Price Prediction Kaggle Dataset Analysis | Data Science | ML | Kaggle'. [Online].</p>
-      <p>Available: https://www.youtube.com/watch?v=880YXMnTeu4 </p>
+  
   </li>
   <li><p>End to end Case Study: Bike-sharing demand prediction'. [Online].</p>
       <p>Available:https://towardsdatascience.com/end-to-end-case-study-bike-sharing-demand-dataset-53201926c8db</p>
